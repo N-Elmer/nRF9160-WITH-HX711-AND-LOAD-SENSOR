@@ -1,3 +1,6 @@
+# nRF9160 WITH HX711 AND LOAD SENSOR
+Managing power to sustain device 🔋🔌 working for extended periods
+
 .. _hello_world:
 
 Hello World
