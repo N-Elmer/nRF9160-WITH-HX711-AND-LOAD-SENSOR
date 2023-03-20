@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "modules/chre",
+		"source" : "C:/ncs/v2.2.0/modules/lib/chre/platform/zephyr"
+	}
+}

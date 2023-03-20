@@ -1,0 +1,47 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include"
+		],
+		"files" : 
+		[
+			"C:/ncs/v2.2.0/nrf/cmake/multi_image.cmake",
+			"C:/ncs/v2.2.0/nrf/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 2
+			}
+		]
+	},
+	"id" : "app_subimage::@cddba865d6a10e3ca346",
+	"name" : "app_subimage",
+	"paths" : 
+	{
+		"build" : "modules/nrf",
+		"source" : "C:/ncs/v2.2.0/nrf"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

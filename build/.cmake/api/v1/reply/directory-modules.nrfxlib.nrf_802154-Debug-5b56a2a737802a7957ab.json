@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "modules/nrfxlib/nrf_802154",
+		"source" : "C:/ncs/v2.2.0/nrf/modules/nrfxlib/nrf_802154"
+	}
+}

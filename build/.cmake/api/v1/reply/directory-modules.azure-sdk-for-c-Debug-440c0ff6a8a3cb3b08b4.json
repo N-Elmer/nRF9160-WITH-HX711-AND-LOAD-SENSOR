@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "modules/azure-sdk-for-c",
+		"source" : "C:/ncs/v2.2.0/nrf/modules/azure-sdk-for-c"
+	}
+}

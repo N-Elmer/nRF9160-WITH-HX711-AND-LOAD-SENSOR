@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "zephyr/subsys/testsuite",
+		"source" : "C:/ncs/v2.2.0/zephyr/subsys/testsuite"
+	}
+}

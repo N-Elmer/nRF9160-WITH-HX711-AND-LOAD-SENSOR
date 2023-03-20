@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "modules/tinycrypt",
+		"source" : "C:/ncs/v2.2.0/modules/crypto/tinycrypt"
+	}
+}

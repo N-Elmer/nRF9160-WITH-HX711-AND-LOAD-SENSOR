@@ -1,5 +1,6 @@
 /*
- * Copyright (c) 2012-2014 Wind River Systems, Inc.
+ * Copyright (c) 2016 Linaro Limited.
+ *               2016 Intel Corporation.
  *
  * SPDX-License-Identifier: Apache-2.0
  */
@@ -11,6 +12,9 @@
 #include <zephyr/logging/log.h>
 #include <zephyr/sys/util.h>
 #include <zephyr/types.h>
+#include <zephyr/drivers/flash.h>
+#include <zephyr/storage/flash_map.h>
+#include <stdio.h>
 
 #include <sensor/hx711/hx711.h>
 #include <stddef.h>
@@ -19,19 +23,7 @@ LOG_MODULE_REGISTER(main, LOG_LEVEL_INF);
 
 const struct device *hx711_dev;
 
-// void set_rate(enum hx711_rate rate)
-// {
-// 	static struct sensor_value rate_val;
-
-// 	rate_val.val1 = rate;
-// 	sensor_attr_set(hx711_dev,
-// 			HX711_SENSOR_CHAN_WEIGHT,
-// 			SENSOR_ATTR_SAMPLING_FREQUENCY,
-// 			&rate_val);
-// }
-
-void measure(void)
-{
+void measure(void) {
 	static struct sensor_value weight;
 	int ret;
 
@@ -63,17 +55,7 @@ void main(void) {
 	LOG_INF("Calculating slope...");
 	avia_hx711_calibrate(hx711_dev, calibration_weight, 5);
 
-	while (true) {
-		// k_msleep(1000);
-		// LOG_INF("== Test measure ==");
-		// LOG_INF("= Setting sampling rate to 10Hz.");
-		// set_rate(HX711_RATE_10HZ);
+	while(true) {
 		measure();
-
-		// k_msleep(1000);
-		// LOG_INF("= Setting sampling rate to 80Hz.");
-		// set_rate(HX711_RATE_80HZ);
-		// measure();
-		k_msleep(1000);
 	}
 }

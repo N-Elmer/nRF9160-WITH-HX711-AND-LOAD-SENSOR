@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "zephyr/arch/arch/arm/core/aarch32/cortex_m/cmse",
+		"source" : "C:/ncs/v2.2.0/zephyr/arch/arm/core/aarch32/cortex_m/cmse"
+	}
+}

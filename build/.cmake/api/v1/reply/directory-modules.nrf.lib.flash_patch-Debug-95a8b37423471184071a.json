@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "modules/nrf/lib/flash_patch",
+		"source" : "C:/ncs/v2.2.0/nrf/lib/flash_patch"
+	}
+}

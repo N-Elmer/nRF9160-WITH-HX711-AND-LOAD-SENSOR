@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "modules/mipi-sys-t",
+		"source" : "C:/ncs/v2.2.0/modules/debug/mipi-sys-t"
+	}
+}

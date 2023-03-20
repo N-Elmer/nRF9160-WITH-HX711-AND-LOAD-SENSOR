@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "modules/mcuboot/boot/bootutil/zephyr",
+		"source" : "C:/ncs/v2.2.0/bootloader/mcuboot/boot/bootutil/zephyr"
+	}
+}

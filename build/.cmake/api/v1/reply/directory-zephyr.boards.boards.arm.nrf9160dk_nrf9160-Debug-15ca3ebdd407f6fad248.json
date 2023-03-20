@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "zephyr/boards/boards/arm/nrf9160dk_nrf9160",
+		"source" : "C:/ncs/v2.2.0/zephyr/boards/arm/nrf9160dk_nrf9160"
+	}
+}
